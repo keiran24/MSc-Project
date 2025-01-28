@@ -1,1 +1,8 @@
 # MSc-Project
+
+Abstract:
+Space weather can have a significant impact on Earth’s magnetosphere; it can pose potential health risks to astronauts and disrupt the satellites or the power grids that we rely on. Although highly disruptive events, such as Coronal Mass Ejections are well studied, one-minute fluctuations in the solar wind can have a stationary impact on Earth. Even is the effects of these fluctuations are difficult to determine by non-empirical methods (i.e. physics-based methods constrained by computational resources, which will not show fluctuations), it is essential to create accurate models that allow us to forecast them prior to them reaching Earth.  
+
+Among the different types of forecasting models, we will be using empirical statistical methods to predict proxies of the solar wind and their fluctuations, such as its magnetic field and velocity. We shall make use of data taken from Lagrange Point 1 by satellites such as WIND or ACE. Much of this will revolve around timeseries forecasting, examining past data to identify timeseries similar to the close past of the day we want to forecast. The close future of these timeseries will serve as our forecasts assuming a form of reproducibility in what happened. The methodology will then be based on pattern-recognition algorithms and we will investigate such techniques including time-weighted criteria and possibly machine learning models. 
+
+Each method will be tested by feeding in the real data and obtaining a forecast. The predictions will then be compared to the actual outcome to determine the accuracy of each model, which can then be compared. Accuracy will be analysed using a range of metrics, such as root mean square error or correlations. 
